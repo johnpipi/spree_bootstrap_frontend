@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_auth_devise', '~> 2.2'
+  s.add_runtime_dependency 'spree_auth_devise', '~> 3.0'
   s.add_runtime_dependency 'spree_bootstrap'
 
   s.add_development_dependency 'sqlite3'
